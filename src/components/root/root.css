@@ -1,0 +1,48 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+html, body, #root {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;;
+}
+
+header, footer {
+  height: 100px;
+  background: #85929E;
+}
+
+header {
+  flex: 0 0 auto;
+}
+
+main {
+  margin-bottom: 10px;
+  flex: 1 0 auto;
+}
+
+footer {
+  flex: 0 0 auto;
+}
+
+h1 {
+  color: white;
+  margin-left: 10px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
