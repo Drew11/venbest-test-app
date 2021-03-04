@@ -68,30 +68,33 @@ const Filter = (props) => {
                 </div>
 
                 <div className="filter-item">
-                    <label htmlFor="">Sex:</label>
-                    <ul>
-                        <li>
-                            Female
-                            <input
-                                name="sex-f"
-                                onChange={changeFilter}
-                                type="checkbox"
-                                checked={filter.sex.f}
-                            />
-                        </li>
 
-                        <li>
-                            Male
-                            <input
-                                name="sex-m"
-                                onChange={changeFilter}
-                                checked={filter.sex.m}
-                                type="checkbox"
-                            />
-                        </li>
-                    </ul>
+                    <label htmlFor="">Female:</label>
+
+                    <div>
+                        <input
+                            name="sex-f"
+                            onChange={changeFilter}
+                            type="checkbox"
+                            checked={filter.sex.f}
+                        />
+                    </div>
 
                 </div>
+
+            <div className="filter-item">
+                <label htmlFor="">Male:</label>
+
+                <div>
+                    <input
+                        name="sex-m"
+                        onChange={changeFilter}
+                        checked={filter.sex.m}
+                        type="checkbox"
+                    />
+                </div>
+
+            </div>
         </div>
     );
 };
