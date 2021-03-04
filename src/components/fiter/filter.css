@@ -3,12 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .filter-item {
    display: flex;
    width: 500px;
+   margin-top: 5px;
 }
 .filter-item label {
     flex: 1 1 0;
@@ -16,7 +17,7 @@
 
 .filter-item input {
     padding-left: 5px;
-    flex: 3 2 2px;
+    flex: 4 2 2px;
     margin-top: 4px;
     border: 1px solid gray;
     outline: none;
@@ -24,9 +25,16 @@
     background: #F8F9F9;
 }
 
-.filter-item:nth-child(4) div,
-.filter-item:nth-child(5) div
-{
-    margin-left: -8px;
-    flex: 3 2 2px;
+.filter-item:nth-child(4) div{
+    display: flex;
+    justify-content: left;
+}
+
+.filter-sex {
+    flex: 4 2 2px;
+}
+
+.filter-sex > div:nth-child(1){
+    margin-right: 5px;
+    margin-left: -3px;
 }

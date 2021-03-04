@@ -10,4 +10,4 @@ In the project directory, you can run dev server:
 
 #### `yarn start`
 
-[Demo](https://drew11.github.io/venbest-test-app/).
+[Demo](https://drew11.github.io/venbest-test-app/)

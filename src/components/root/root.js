@@ -20,6 +20,7 @@ const Root = () => {
 
         <main>
             <Filter setFilter={setFilter} filter={filter}/>
+            <hr/>
             <UserList filter={filter}/>
         </main>
 

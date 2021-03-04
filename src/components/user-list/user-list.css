@@ -1,5 +1,5 @@
 .user-list {
-    margin-top: 10px;
+    margin-top: 20px;
     list-style: none;
     padding: 0;
     display: flex;
@@ -9,6 +9,7 @@
 }
 
 .user-list li {
+    padding-left: 5px;
     display: flex;
     font-size: 17px;
     font-weight: 600;
