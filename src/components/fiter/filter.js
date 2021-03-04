@@ -46,6 +46,7 @@ const Filter = (props) => {
                     onChange={changeFilter}
                     type="text"
                     name="name"
+                    value={filter.name}
                 />
             </div>
 
@@ -55,7 +56,9 @@ const Filter = (props) => {
                 <input
                     onChange={changeFilter}
                     type="text"
-                    name="last-name"/>
+                    name="last-name"
+                    value={filter.lastname}
+                />
             </div>
 
             <div className="filter-item">
@@ -68,7 +71,6 @@ const Filter = (props) => {
                     type="number"
                     name="age"/>
             </div>
-
 
             <div className="filter-item">
 
